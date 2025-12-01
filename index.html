@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Cat Facts & Images 🐱</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐱 Random Cat Generator</h1>
+        <p class="subtitle">Discover adorable cats with interesting facts!</p>
+        
+        <div class="cat-card">
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+            </div>
+            
+            <img id="catImage" src="" alt="Random Cat" style="display: none;">
+            
+            <div class="cat-info" id="catInfo">
+                <p id="breedInfo" class="breed-info" style="display: none;"></p>
+                <p id="catFact" class="cat-fact">Click the button below to get a random cat!</p>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button id="newCatBtn" class="btn btn-primary">
+                <span>🎲 Get Random Cat</span>
+            </button>
+            <button id="favBtn" class="btn btn-secondary">
+                <span>❤️ Save Favorite</span>
+            </button>
+        </div>
+        
+        <div class="footer">
+            <p>💡 Press <kbd>Space</kbd> for a new cat | Data from <a href="https://thecatapi.com" target="_blank">The Cat API</a> & <a href="https://catfact.ninja" target="_blank">Cat Facts</a></p>
+        </div>
+    </div>
+
+    <!-- Load config first, then script -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

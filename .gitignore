@@ -1,0 +1,13 @@
+# API Keys and sensitive configuration
+config.js
+
+# Node modules (if you add npm later)
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
