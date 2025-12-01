@@ -104,3 +104,52 @@ git push origin main
 - ✅ Frontend never sees API key
 - ✅ config.js gitignored
 - ✅ Ready for production
+
+---
+
+Render sources
+
+Here are the official Render deployment references:
+
+## 📚 Official Render Documentation
+
+### **Main Guides:**
+1. **Deploy Node.js Apps:**
+   - https://docs.render.com/deploy-node-express-app
+   - Complete guide for Express.js apps
+
+2. **Environment Variables:**
+   - https://docs.render.com/configure-environment-variables
+   - How to add and manage secrets like API keys
+
+3. **Web Services Overview:**
+   - https://docs.render.com/web-services
+   - Service types, pricing, and configuration
+
+4. **Build & Deploy:**
+   - https://docs.render.com/deploys
+   - Build commands, start commands, and deployment process
+
+### **Quick Reference:**
+
+| Setting | Value for Your App |
+|---------|-------------------|
+| Service Type | Web Service |
+| Root Directory | backend |
+| Build Command | `npm install` |
+| Start Command | `npm start` |
+| Environment Variable | `CAT_API_KEY` = your_key |
+
+### **Video Tutorials:**
+- Render YouTube Channel: https://www.youtube.com/c/Render
+- Deploy Node.js App (official): https://www.youtube.com/watch?v=bnCOyGaSe84
+
+### **Community Resources:**
+- Render Community Forum: https://community.render.com/
+- Status Page: https://status.render.com/
+
+### **Your Specific Setup:**
+Follow this guide for Express apps:
+👉 https://docs.render.com/deploy-node-express-app
+
+All set! Your app follows Render's best practices for Node.js/Express deployment. 🚀
